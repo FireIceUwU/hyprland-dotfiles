@@ -1,0 +1,70 @@
+shell = "bash -c '{}'"
+
+# [[item]]
+# file = "~/.config/waybar/colors.css"
+# template = "waybar"
+# hook = "killall waybar; waybar & disown"
+# rewrite = true
+
+[[item]]
+file = "~/.config/zathura/zathurarc"
+template = "zathura"
+rewrite = true
+
+[[item]]
+file = "~/.config/kitty/colors.conf"
+template = "kitty"
+hook = "kill -SIGUSR1 $(pgrep kitty)"
+rewrite = true
+
+[[item]]
+file = "~/.mozilla/firefox/eppwtee1.default-release/chrome/firefox-gnome-theme/theme/colors/dark.css"
+template = "firefox"
+rewrite = true
+
+[[item]]
+file = "~/.config/gtk-4.0/gtk.css"
+template = "gtk4"
+rewrite = true
+hook = "gsettings set org.gnome.desktop.interface gtk-theme dummy && gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-dark"
+
+[[items]]
+file = "~/.vscode/extensions/undefined_publisher.materialyou-theme-0.0.1/themes/Material You-color-theme.json"
+rewrite = true
+template = "vscode"
+
+[[item]]
+file = "~/.config/rofi/themes/colors.rasi"
+template = "rofi"
+subtemplate = "colors"
+rewrite = true
+
+[[item]]
+file = "~/.config/discord-screenaudio/userstyles.css"
+template = "styles"
+subtemplate = "css-variables"
+rewrite = false
+start= "/* Start flavours */"
+end = "/* End flavours */"
+
+# [[item]]
+# file = "~/.config/swaync/colors.css"
+# template = "swaync"
+# rewrite = true
+# hook = "swaync-client -R; swaync-client -rs"
+
+[[item]]
+file = "~/.local/bin/lockscreen"
+template = "waylock"
+rewrite = true
+
+[[item]]
+file = "~/.local/share/tgtheme/theme.tdesktop-theme"
+rewrite = true
+template = "telegram-desktop"
+
+[[item]]
+file = "~/.config/ags/scss/colors.scss"
+hook = "killall ags; ags & disown"
+rewrite = true
+template = "ags"

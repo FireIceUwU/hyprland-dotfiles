@@ -1,0 +1,11 @@
+2023-09-17 19:40:27.338 [info] Extension host with pid 6163 started
+2023-09-17 19:40:27.371 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-09-17 19:40:27.444 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-09-17 19:40:27.448 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-09-17 19:40:27.490 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-17 19:40:27.552 [info] Eager extensions activated
+2023-09-17 19:40:27.554 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-17 19:40:27.557 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-17 19:40:29.563 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2023-09-17 19:40:31.093 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-17 19:40:31.102 [info] Extension host with pid 6163 exiting with code 0

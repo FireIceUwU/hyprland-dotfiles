@@ -1,0 +1,18 @@
+2023-10-14 11:04:15.823 [info] Log level: Info
+2023-10-14 11:04:15.823 [info] Validating found git in: "git"
+2023-10-14 11:04:15.823 [info] Using git "2.42.0" from "git"
+2023-10-14 11:04:15.823 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-14 11:04:15.823 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-10-14 11:04:15.835 [info] Open repository: /home/fireiceuwu/Documents/GitHub/hyprland_dotfiles
+2023-10-14 11:04:15.852 [info] > git config --get commit.template [5ms]
+2023-10-14 11:04:15.860 [info] No remotes found in the git config file.
+2023-10-14 11:04:15.861 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-10-14 11:04:15.870 [info] > git status -z -uall [1ms]
+2023-10-14 11:04:15.892 [info] > git config --get commit.template [4ms]
+2023-10-14 11:04:15.898 [info] No remotes found in the git config file.
+2023-10-14 11:04:15.900 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-10-14 11:04:15.908 [info] > git status -z -uall [2ms]
+2023-10-14 11:04:16.364 [info] > git check-ignore -v -z --stdin [2ms]
+2023-10-14 11:04:20.104 [info] > git show --textconv :LICENSE [16ms]
+2023-10-14 11:04:20.106 [info] > git ls-files --stage -- /home/fireiceuwu/Documents/GitHub/hyprland_dotfiles/LICENSE [3ms]
+2023-10-14 11:04:20.121 [info] > git cat-file -s 162f38785a8213cc389181eb44eb118aa9cb3421 [4ms]
