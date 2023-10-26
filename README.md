@@ -1,2 +1,3 @@
 # hyprland-dotfiles
-dotfailiki kachi bistree!!!!!
+dotfailiki kachai bistree!!!!!
+
